@@ -70,6 +70,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     header: "Strict-Transport-Security",
     tab: "nginx",
   });
+  
+  
+
 
   return (
     <AuthContext.Provider
